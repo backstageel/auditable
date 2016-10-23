@@ -26,6 +26,8 @@ class Logger extends AppModel
 	public $useTable = 'logs';
 
 	public $displayField = 'id';
+	
+	public $useDbConfig = 'acl_logs';
 
 	public $actsAs = array('Containable');
 
